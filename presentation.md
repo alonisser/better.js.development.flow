@@ -1,12 +1,22 @@
 class center, middle
 
 # A Better frontend development workflow  
-one step at a time   
+(one step at a time)
 
-Me: alonisser@twitter.com. also write in http://4p-tech.co.il/blog
+Me: alonisser@twitter.com.  
+writes in http://4p-tech.co.il/blog
+presentation with markdown via [remark](https://github.com/gnab/remark)
 
+---
+class center,middle
+
+#part 1: A framework
+
+where I'm coming from
+---
 ## The holy grail: 
-fast feature development, Integration and deployment.
+**fast** feature development, Integration and deployment.
+---
 
 ## The Spolsky 12 points test:
 
@@ -74,22 +84,38 @@ more goodies:
  2 git branch and git checkout. cheap and easy branching (A must have in my opinion)
 
 # Need for speed!
-Yslow - Best practices are your friends (most of the time)
+[Yslow] - Best practices are your friends (most of the time)
  * Linting (jshint is fine)
  * concat
  * minification and uglification
  * css as well as js
 remember - everthing can be automated to work for you!
+## [Jasmine](http://pivotal.github.io/jasmine/)
+ * A js testRunner
+ * simple UnitTesting
 
-## Intern (or Karma/Jasmine/mocha and the rest)
-A js testRunner
-
+---
+## There are more options:
+ * Karma, Mocha etc'
+ * casper.js over phantom.js (I wrote a [blogpost] about this one)
+---
+# Functional testing
+ * selenium and selenium IDE: Record a Test from the browser (install with firefox)
+ * edit the test (selenize looks like an html <pre><table></pre>)
+ * There are also binding to server side programming languages
+---
+## The [Intern](http://theintern.io/)
+'''npm install intern'''
+ * The **new** Hotness
+ * integrates unit testing with functional testing with selenium and phantomjs. coverage etc.
+ * didn't play with this enough to testify.
+---
+# Part 3: The Build
+---
 ## introducing Grunt - a js build tool
  * Gets lots of love lately from frontend developers.
  * A lot of contrib Grunt task.
  * You don't **have** to use a js build tool. make, rake,ant etc would work
-# Functional testing
-selenium and selenium IDE
 
 ## Understand your KPI
 log=>measure=>act  
