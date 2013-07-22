@@ -1,9 +1,0 @@
-{
-  "smarttabs": true,
-  "unused": true,
-  "undef": true,
-  "browser": true,
-  "devel": true,
-  "-W099": true,
-  "jquery": true
-}
